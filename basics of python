@@ -1,0 +1,147 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMei8Uvtd51zGwLxPNaemjR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MekalaMokshaArjunReddy75/python-lab-python/blob/main/basics%20of%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "FcInGGaTnTu-"
+      },
+      "outputs": [],
+      "source": [
+        "print(\"hello world\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=6\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "id": "4pI_VKrInVeZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b='hi'\n",
+        "print(b)"
+      ],
+      "metadata": {
+        "id": "J6yvPZ44nXvO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a='HELLO'\n",
+        "print(a,\"world\")"
+      ],
+      "metadata": {
+        "id": "Xf5d4Go0naVH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=1\n",
+        "b=2\n",
+        "print(a+b)"
+      ],
+      "metadata": {
+        "id": "ZS0CSS8FndU_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=4\n",
+        "b=3\n",
+        "print(a/b)\n",
+        "print(a%b)\n",
+        "print(a//b)"
+      ],
+      "metadata": {
+        "id": "v-WwMJ8DngmW"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input()"
+      ],
+      "metadata": {
+        "id": "nxggGtBYni5l"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"enter a value:\")"
+      ],
+      "metadata": {
+        "id": "mXzT641gnlzp"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter a value:\"))"
+      ],
+      "metadata": {
+        "id": "gt2DdEfrnoFG"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "XxY1wurcnrBl"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
