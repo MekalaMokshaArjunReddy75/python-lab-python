@@ -1,0 +1,121 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPMJv/dwasvfBCFp5hJ1kAf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MekalaMokshaArjunReddy75/python-lab-python/blob/main/dictionaries\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 1. Creating a dictionary\n",
+        "d = {\n",
+        "    \"name\": \"sai\",\n",
+        "    \"age\": 20,\n",
+        "    \"grade\": 9.3,\n",
+        "    \"height\": 6.0,\n",
+        "    \"NAME\": \"sri\"\n",
+        "}\n",
+        "print(d)"
+      ],
+      "metadata": {
+        "id": "6bX3nLOPlY2H"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "d = {}\n",
+        "print(type(d))"
+      ],
+      "metadata": {
+        "id": "noOH5acildjM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "d1 = dict(a=70, n=34)\n",
+        "print(d1)"
+      ],
+      "metadata": {
+        "id": "luDX4YsulhJ5"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in d:\n",
+        "    print(i)"
+      ],
+      "metadata": {
+        "id": "sH3EGohPljUs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = d.keys()\n",
+        "print(x)\n",
+        "print(type(x))\n",
+        "print(list(x))"
+      ],
+      "metadata": {
+        "id": "x92djBKello4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "y = d.values()\n",
+        "print(y)\n",
+        "print(list(y))"
+      ],
+      "metadata": {
+        "id": "_YuJYF5hlqCJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "RmAcv24glsgY"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
