@@ -1,0 +1,182 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM05fDfDsN6fr8wO/J3SZkN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MekalaMokshaArjunReddy75/python-lab-python/blob/main/if%2Celif%2Ccomplex%20problems\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for x in range(0,10,2):\n",
+        "  print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "egrrlB46syvG",
+        "outputId": "8d86bead-3884-4a44-9d63-1651f3fe7306"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n",
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter anumber:\"))\n",
+        "b=int(input(\"enter anumber:\"))\n",
+        "c=int(input(\"enter a number:\"))\n",
+        "if(a>b):\n",
+        "  max=a\n",
+        "elif(b>a):\n",
+        "  max=b\n",
+        "if(max>c):\n",
+        "  print(\"greater number number is \",max)\n",
+        "else:\n",
+        "  print(\"greater number is \",c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wrRS_37fXZix",
+        "outputId": "afa7e6b1-3d8b-4114-f75c-1a8129a366f1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter anumber:5\n",
+            "enter anumber:7\n",
+            "enter a number:2\n",
+            "greater number number is  7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter anumber:\"))\n",
+        "if(a%3==0 and a%5!=0):\n",
+        "   print(\"buzz\")\n",
+        "elif(a%5==0 and a%3!=0):\n",
+        "    print(\"fizz\")\n",
+        "elif(a%3==0 and a%5==0):\n",
+        "  print(\"fizzbuzz\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xojN2-3fe4tU",
+        "outputId": "f38d097f-d775-4dd8-df61-9905b36beb08"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter anumber:3\n",
+            "buzz\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=complex(input(\"entere a number\"))\n",
+        "b=complex(input(\"enter anumber\"))\n",
+        "c=complex(a,b)\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "787tc5d2gz4b",
+        "outputId": "c940c13e-5338-4aff-bd36-ed66d8dc49fb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "entere a number2\n",
+            "enter anumber3\n",
+            "(2+3j)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "b=int(input())\n",
+        "a,b=b,a\n",
+        "print(a)\n",
+        "print(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C6HVLUOtjiUe",
+        "outputId": "d217eb10-05cd-4d68-8389-59c24c222b39"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "3\n",
+            "3\n",
+            "2\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
