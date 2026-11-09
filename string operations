@@ -1,0 +1,142 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPchJbtpnN6yo8ZPro97KH+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MekalaMokshaArjunReddy75/python-lab-python/blob/main/string%20operations\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VJgBDmPeQQye",
+        "outputId": "6d04ff06-018a-4e11-cdd3-5c8cad1288be"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello world\n",
+            "['Hello', 'world']\n",
+            "HELLO WORLD\n",
+            "hello world\n",
+            "arjun world\n",
+            "6\n",
+            "11\n",
+            "Hello world\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=str(input())\n",
+        "b=a.split()\n",
+        "print(b)\n",
+        "print(a.upper())\n",
+        "print(a.lower())\n",
+        "print(a.replace(\"Hello\",\"arjun\"))\n",
+        "print(a.find(\"w\"))\n",
+        "print(len(a))\n",
+        "print(a.strip())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "d=str(input())\n",
+        "count=0\n",
+        "if d.isupper():\n",
+        "  d=d.lower()\n",
+        "a={\"a\",\"e\",\"i\",\"o\",\"u\"}\n",
+        "for ch in d:\n",
+        "  if ch in a :\n",
+        "      count+=1\n",
+        "print(count)\n",
+        "print(len(d)-count)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4VQtlnZXWI65",
+        "outputId": "5f092c96-06a1-4a87-e387-62ed90183b8f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ARJUN REDDY\n",
+            "3\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=str(input())\n",
+        "s=str(input())\n",
+        "c=a.find(s)\n",
+        "if c==-1:\n",
+        "  print(\"substring not found\")\n",
+        "else:\n",
+        "  print(\"substring  found at\",c)\n"
+      ],
+      "metadata": {
+        "id": "5IlLsJ47ZaXA",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "54634fc3-6d71-47fc-8dc4-44f85194d2c5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "arjun redddy\n",
+            "dddy\n",
+            "substring  found at 8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "QCZCtN4qpXYK"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
